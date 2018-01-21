@@ -8,7 +8,6 @@ Jan 2018 - Feb 2018
 * Week 4: Performance
 * Week 5: Aggregation Framework
 * Week 6: Application Engineering
-* Week 7: Case Studies
 * Final Exam
 
 see: https://university.mongodb.com/courses/M101J/about
