@@ -15,8 +15,8 @@ NOTE: There is a dump of the video database included in the handouts for the "Cr
 * 13
 * 14
 
-Correct Answer: 6
-
 ```bash
 db.movieDetails.find({ "countries.1" : "Sweden" })
 ```
+
+Correct Answer: 6
