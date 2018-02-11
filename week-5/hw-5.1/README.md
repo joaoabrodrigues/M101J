@@ -15,12 +15,14 @@ To help you verify your work before submitting, the author with the fewest comme
 
 Please choose your answer below for the most prolific comment author:
 
-• Gwyneth Garling<br/>
-• Milan Mcgavock<br/>
-• Elizabet Kleine<br/>
-• Dusti Lemmond<br/>
-• Leonida Lafond<br/>
-• Corliss Zuk<br/>
+* Gwyneth Garling<br/>
+* Milan Mcgavock<br/>
+* Elizabet Kleine<br/>
+* Dusti Lemmond<br/>
+* Leonida Lafond<br/>
+* Corliss Zuk<br/>
+
+------
 
 Query:
 ```bash
@@ -35,4 +37,4 @@ db.posts.aggregate([
 ```
 
 Answer:<br/>
-• Elizabet Kleine
+* Elizabet Kleine
