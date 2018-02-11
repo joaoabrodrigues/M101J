@@ -55,13 +55,13 @@ Below, choose the class_id with the highest average student average.
 
 Please use the Aggregation pipeline to solve this problem.
 
-• 8
-• 9
-• 1
-• 5
-• 7
-• 0
-• 6
+• 8<br/>
+• 9<br/>
+• 1<br/>
+• 5<br/>
+• 7<br/>
+• 0<br/>
+• 6<br/>
 
 Query:
 ```bash
@@ -84,4 +84,5 @@ db.grades.aggregate([
 ]) 
 ```
 
-Answer: 1
+Answer:<br/>
+• 1

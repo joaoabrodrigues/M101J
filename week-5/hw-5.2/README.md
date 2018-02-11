@@ -25,12 +25,12 @@ This is raw data from the United States Postal Service. If you notice that while
 Once you've generated your aggregation query and found your answer, select it from the choices below.
 Please use the Aggregation pipeline to solve this problem.
 
-• 44805
-• 55921
-• 67935
-• 71819
-• 82426
-• 93777
+• 44805<br/>
+• 55921<br/>
+• 67935<br/>
+• 71819<br/>
+• 82426<br/>
+• 93777<br/>
 
 Query:
 ```bash
@@ -47,4 +47,5 @@ db.zips.aggregate([
 ])
 ```
 
-Answer: 44805
+Answer:<br/>
+• 44805

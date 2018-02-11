@@ -40,18 +40,18 @@ Using the aggregation framework, calculate the sum total of people who are livin
 
 You will need to probably change your projection to send more info through than just that first character. Also, you will need a filtering step to get rid of all documents where the city does not start with the select set of initial characters.
 
-• 76394871
-• 9134188
-• 9430890
-• 19499064
-• 11623385
-• 20043717
-• 3326663627
+• 76394871<br/>
+• 9134188<br/>
+• 9430890<br/>
+• 19499064<br/>
+• 11623385<br/>
+• 20043717<br/>
+• 3326663627<br/>
 
 Query:
 ```bash
 db.zips.aggregate([ { $project: { first_char: { $substr : ["$city",0,1]}, "pop": "$pop" } }, {$match: {"first_char": { $in:['B','D','O','G','N','M']}}}, { $group: {"_id" : null, sum: {$sum:"$pop"}} } ])
 ```
 
-Answer: 
+Answer:<br/>
 • 76394871
