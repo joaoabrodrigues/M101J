@@ -17,12 +17,12 @@ Next, go into the Mongo shell, perform a findOne on the collection called hw1 in
 hint: if you got back a document that looks like { "_id": 1234, "answer": 2468 }, you would put in 2468 (with no spaces) for your answer. This is not the correct number; you should get a different number.
 
 
-```json
+```bash
 {
 	"_id" : ObjectId("50773061bf44c220307d8514"),
 	"answer" : 42,
 	"question" : "The Ultimate Question of Life, The Universe and Everything"
 }
 ```
-
-answer is 42
+---------------------------------------
+The answer is 42
