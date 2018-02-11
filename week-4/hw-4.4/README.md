@@ -17,7 +17,9 @@ Now query the profile data, looking for all queries to the students collection i
 ------
 
 Query:<br/>
+```bash
 db.profile.find( { op : “query”, ns : /school2.students/ } ).sort( ( millis : -1 ) ).limit( 1 ).pretty()
+```
 
 Answer:<br/>
 * 15820
