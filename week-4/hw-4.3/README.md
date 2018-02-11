@@ -32,6 +32,8 @@ You will see a message below about the number of times you have submitted a solu
 
 Tip: Be sure to go to settings in mongoProc, and point mongod1 to your mongod (probably localhost:27017), and web1 to your web url (probably localhost:8082)
 
+------
+
 Answer:
 1) Ensure that you are using mongo 3.4
 
