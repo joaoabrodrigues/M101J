@@ -19,4 +19,5 @@ NOTE: There is a dump of the video database included in the handouts for the "Cr
 db.movieDetails.find({ "rated": "PG-13", "year": 2013, "awards.wins": 0})
 ```
 
+------
 Correct Answer: A Decade of Decadence, Pt. 2: Legacy of Dreams

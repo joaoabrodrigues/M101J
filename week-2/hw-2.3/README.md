@@ -55,4 +55,5 @@ db.grades.aggregate( { '$group' : { '_id' : '$student_id', 'average' : { $avg : 
 
 Enter the student ID below. Please enter just the number, with no spaces, commas or other characters.
 
+------
 Enter answer here: 54

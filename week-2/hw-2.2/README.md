@@ -43,4 +43,5 @@ Choose the best answer:
 db.grades.find({ "score" : { $gte : 65 }}).sort({ "score" : 1 })
 ```
 
+------
 Correct answer: 22

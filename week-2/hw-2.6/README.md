@@ -19,4 +19,5 @@ NOTE: There is a dump of the video database included in the handouts for the "Cr
 db.movieDetails.find({ "countries.1" : "Sweden" })
 ```
 
+------
 Correct Answer: 6
